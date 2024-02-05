@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,600&display=swap");
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  background: #6f3552;
+}
+
+h1 {
+  color: #f490c2;
+  font-weight: 600;
+}
+
+p {
+  color: beige;
+}
+
+.box {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+::selection {
+  background-color: #fdbfde;
+  color: #492335;
+}
+.btn-info {
+  background-color: #372f29 !important;
+  border: #372f29 !important;
+  color: rgb(214, 214, 201);
+}
+
+.pink {
+  color: palevioletred;
+}
+
+.table {
+  background-color: #6f3552;
+}
+.btn-outline-danger {
+  border: #e679af !important;
+  border-color: #e679af !important;
+}
+.btn-outline-danger:hover {
+  /* border: #e679af !important; */
+  background-color: #e679af;
+  color: #492335;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #e88bb9;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+input {
+  background-color: transparent !important;
+  color: #e88bb9 !important;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0 !important;
+  background-color: transparent !important;
+}
+input::placeholder {
+  color: #e88bb9 !important;
+  background-color: transparent !important;
+}
+.form-control {
+  background-color: transparent !important;
+  border-color: #e88bb9 !important;
+}
